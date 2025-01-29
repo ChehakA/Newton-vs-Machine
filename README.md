@@ -1,2 +1,3 @@
-# Newton-vs-Machine
-reproduce the results of a paper that compares a traditional optimization method (Newton's method) with a neural network model
+Newton vs Machine is a machine learning project that aims to reproduce the results of a paper that compares a traditional optimization method (Newton's method) with a neural network model. In this project, we use a deep learning model to predict the numerical solutions of optimization problems and compare its performance against Newton's method. The project leverages a neural network to approximate the solutions typically obtained through traditional mathematical optimization.
+
+The neural network is implemented using TensorFlow and Keras with 10 hidden layers, each with 128 neurons, and uses various metrics like Mean Squared Error (MSE) and Mean Absolute Error (MAE) for model evaluation. The neural network learns the mapping between the input features and target values from the provided dataset, aiming to reproduce and improve upon Newton’s method.
